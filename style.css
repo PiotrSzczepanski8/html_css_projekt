@@ -1,0 +1,220 @@
+body{
+    margin: 0;
+}
+html{
+    background-color: #215688;
+}
+.container{
+    background-color: #193855;
+}
+nav{
+    width: 100%;
+}
+ul{
+    padding-left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    list-style-type: none;
+}
+i{
+    font-size: 200%;
+    color: #fff;
+    transition: 0.3s;
+}
+a i:hover{
+    color: rgb(255, 136, 0);
+    transition: 0.3s;
+}
+.tooltip-text{
+    visibility: hidden;
+    position: absolute;
+    z-index: 1;
+    width: 6.5em;
+    font-weight: bold;
+    color: white;
+    font-size: 1rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px 15px 10px 15px;
+    top: 2em;
+    left: -3em;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.hover-text {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.hover-text:hover .tooltip-text {
+    visibility: visible;
+}
+header{
+    background-color: #215688;
+    width: 100%;
+    color: #fff;
+    display: flex;
+    border-bottom: rgb(255, 136, 0) 0.5rem solid;
+    position: sticky;
+    top: 0;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    background-color: #193855;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 70%;
+    margin: auto;
+}
+.main_intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main_intro p{
+    padding: 3%;
+    text-align: center;
+}
+.content_img{
+    box-shadow: 0.6em 0.6em rgb(255, 136, 0);
+    width: 80%;
+    border-radius: 1em;
+}
+footer{
+    display: flex;
+    background-color: #215688;
+    color: #fff;
+    font-weight: bold;
+    justify-content: center;
+    border-top: 0.5rem solid rgb(255, 136, 0);
+    width: 94%;
+    padding: 3%;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main_subpg{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+article{
+    display: flex;
+    justify-content: center;
+    background-color: #215688;
+    flex-wrap: wrap;
+    margin: 2%;
+    border-radius: 2em;
+    flex-basis: 25%;
+    transition: 0.2s;
+    cursor: text;
+    user-select: none;
+}
+article:hover{
+    box-shadow: 0.4em 0.4em rgb(255, 136, 0);
+    transition: 0.2s;
+}
+article a{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+    flex-basis: 60%;
+    margin-top: 1%;
+}
+article i{
+    display: flex;
+    align-items: center;
+    margin-top: 2%;
+    flex-basis: 37%;
+    text-align: right;
+    margin-right: 3%;
+}
+article p{
+    margin-top: 1%;
+    padding: 4%;
+    padding-top: 0;
+    text-align: center;
+}
+textarea{
+    resize: none;
+    font-size: 1.4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0.5em;
+    background-color: #215688;
+    color: #fff;
+    border-radius: 0.4em;
+    outline: none;
+    border: none;
+    border: 0.2em solid rgba(255, 136, 0, 0);
+}
+input{
+    font-size: 1.4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #215688;
+    color: #fff;
+    padding: 0.5em;
+    border: none;
+    outline: none;
+    border-radius: 0.4em;
+    border: 0.2em solid rgba(255, 136, 0, 0);
+}
+.main_con{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+hr{
+    width: 100%;
+    color: rgb(255, 136, 0);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    gap: 0.4em;
+    margin-bottom: 3%;
+}
+h2{
+    text-align: center;
+}
+input:focus, textarea:focus{
+    border: 0.2em solid rgb(255, 136, 0);
+    transition: 0.5s;
+}
+#submit{
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.5s;
+}
+#submit:hover{
+    background-color: rgb(255, 136, 0);
+    transition: 0.5s;
+}
+#con{
+    scroll-margin-block-start: 5em;
+}
+input::placeholder, textarea::placeholder{
+    color: #ffffffa0
+}
+
+@media (max-width: 765px) {
+    article{
+        flex-basis: 100%;
+    }
+    input{
+        font-size: 1rem;
+    }
+    textarea{
+        font-size: 1rem;
+    }
+    form{
+        width: 100%;
+    }
+}
