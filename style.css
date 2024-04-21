@@ -60,6 +60,7 @@ header{
     display: flex;
     border-bottom: rgb(255, 136, 0) 0.5rem solid;
     position: sticky;
+    z-index: 1;
     top: 0;
 }
 main{
@@ -203,6 +204,45 @@ input:focus, textarea:focus{
 input::placeholder, textarea::placeholder{
     color: #ffffffa0
 }
+table, th, td{
+    border: solid rgb(255, 136, 0) 3px;
+    border-collapse: collapse;
+    padding: 1%;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+}
+th{
+    border: #fff solid 3px;
+    background-color: rgb(255, 136, 0);
+    color: #fff;
+}
+tr{
+    background-color: #215688;
+}
+table{
+    margin: 2% 0 2% 0;
+}
+.container > main:nth-child(2) > table:nth-child(2){
+    margin-top: 0;
+}
+.modes{
+    list-style-position: inside;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.modes li{
+    padding: 1em;
+    background-color: #215688;
+    border-radius: 1em;
+}
+.svg{
+    width: 2.2em;
+    position: relative;
+    top: 0.7em;
+    z-index: 0;
+}
 
 @media (max-width: 765px) {
     article{
@@ -216,5 +256,8 @@ input::placeholder, textarea::placeholder{
     }
     form{
         width: 100%;
+    }
+    table{
+        font-size: 0.7em;
     }
 }

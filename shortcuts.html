@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Piotr Szczepański">
+    <meta name="keywords" content="poradnik, blender3D">
+    <link rel="shortcut icon" href="imgs/blender_logo.png" type="image">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <title>Poradnik do Blednera 3D</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html"   tagret="_blank">
+                            <i class="fa-solid fa-house hover-text">
+                                <span class="tooltip-text">strona główna</span>
+                            </i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="shortcuts.html"   tagret="_blank">
+                            <i class="fa-regular  fa-keyboard hover-text">
+                                <span class="tooltip-text">skróty klawiszowe</span>
+                            </i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="modes.html">
+                            <i class="fa-solid fa-pen-to-square hover-text">
+                                <span class="tooltip-text">tryby</span>
+                            </i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="interface.html">
+                            <i class="fa-solid fa-play hover-text">
+                                <span class="tooltip-text">podstawy</span>
+                            </i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="nodes.html">
+                            <i class="fa-solid fa-circle-nodes hover-text">
+                                <span class="tooltip-text">nody</span>
+                            </i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h2>Skróty klawiszowe w Blenderze</h2>
+            <table>
+                <tr>
+                    <th>Skrót</th>
+                    <th>Działanie</th>
+                </tr>
+                <tr>
+                    <th colspan="2">Ogólne</th>
+                </tr>
+                <tr>
+                    <td>ctrl + Tab</td>
+                    <td>Przełączanie między trybami</td>
+                </tr>
+                <tr>
+                    <td>Shift + D</td>
+                    <td>Duplikowanie obiektów</td>
+                </tr>
+                <tr>
+                    <td>G</td>
+                    <td>Przesuwanie obiektu</td>
+                </tr>
+                <tr>
+                    <td>R</td>
+                    <td>Obracanie obiektu</td>
+                </tr>
+                <tr>
+                    <td>S</td>
+                    <td>Zmienianie rozmiaru obiektu</td>
+                </tr>
+                <tr>
+                    <td>Shift + A</td>
+                    <td>Dodanie nowego obiektu</td>
+                </tr>
+                <tr>
+                    <td>H</td>
+                    <td>Chowanie obiektu</td>
+                </tr>
+                <tr>
+                    <td>O</td>
+                    <td>"Proporcjonalna edycja"</td>
+                </tr>
+                <tr>
+                    <td>X/Delete</td>
+                    <td>Usuwanie</td>
+                </tr>
+                <tr>
+                    <td>X/Y/Z</td>
+                    <td rowspan="2">
+                        Transformacja (przesuwanie, obracanie, zmienianie rozmiaru) po danej osi <br>lub z wyjątkiem danej osi (Shift), jako skróty pomocnicze przy transformcji
+                    </td>
+                </tr>
+                <tr>
+                    <td>Shift + X/Y/Z</td>
+                </tr>
+                <tr>
+                    <th colspan="2">Skróty przełączania widoku</th>
+                </tr>
+                <tr>
+                    <td>numpad +</td>
+                    <td>Przybliżanie widoku</td>
+                </tr>
+                <tr>
+                    <td>numpad -</td>
+                    <td>Oddalanie widoku</td>
+                </tr>
+                <tr>
+                    <td>numpad 0</td>
+                    <td>Widok z kamery</td>
+                </tr>
+                <tr>
+                    <td>numpad 1</td>
+                    <td>Widok z przodu (-Y)</td>
+                </tr>
+                <tr>
+                    <td>numpad 2</td>
+                    <td>Obracanie widoku w dół</td>
+                </tr>
+                <tr>
+                    <td>numpad 3</td>
+                    <td>Widok z prawej strony (X)</td>
+                </tr>
+                <tr>
+                    <td>numpad 4</td>
+                    <td>Obracanie widoku w lewo</td>
+                </tr>
+                <tr>
+                    <td>numpad 5</td>
+                    <td>Zmiana widoku: rzut prostokątny lub widok perspektywiczny</td>
+                </tr>
+                <tr>
+                    <td>numpad 6</td>
+                    <td>Obracanie widoku w prawo</td>
+                </tr>
+                <tr>
+                    <td>numpad 7</td>
+                    <td>Widok z góry (Z)</td>
+                </tr>
+                <tr>
+                    <td>numpad 8</td>
+                    <td>Obracanie widoku do góry</td>
+                </tr>
+                <tr>
+                    <td>numpad 9</td>
+                    <td>Widok z drugiej strony (np. Z &rarr; -Z)</td>
+                </tr>
+                <tr>
+                    <td>numpad .</td>
+                    <td>Widok na wybrany obiekt</td>
+                </tr>
+                <tr>
+                    <td>numpad /</td>
+                    <td>Widok <strong>tylko</strong> na wybrany obiekt</td>
+                </tr>
+                <tr>
+                    <td>MMB</td>
+                    <td>Obracanie widoku myszką</td>
+                </tr>
+                <tr>
+                    <td>Shift + MMB</td>
+                    <td>Przesuwanie widoku myszką</td>
+                </tr>
+                <tr>
+                    <td>ctrl + MMB</td>
+                    <td>Przybliżanie widoku myszką</td>
+                </tr>
+                <tr>
+                    <td>Shift + B</td>
+                    <td>Przybliżanie poprzez zaznaczenie</td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <th colspan="2">Object mode - tryb obiektów</th>
+                </tr>
+                <tr>
+                    <td>A</td>
+                    <td>Zaznaczenie wszystkich obiektów na scenie</td>
+                </tr>
+                <tr>
+                    <td>M</td>
+                    <td>Przenoszenie obiektu do kolekcji</td>
+                </tr>
+                <tr>
+                    <td>ctrl + J</td>
+                    <td>Łączenie obektów w jeden</td>
+                </tr>
+                <tr>
+                    <td>ctrl + P</td>
+                    <td>Ustawianie rodzica obiektu </td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <th colspan="2">Edit mode - Tryb Edycji</th>
+                </tr>
+                <tr>
+                    <td>1, 2, 3</td>
+                    <td>Zmiana trybu zaznaczania (wierzchołki, krawędzie, ściany), <br> Shift, żeby zaznaczać więcej niż jeden typ</td>
+                </tr>
+                <tr>
+                    <td>F</td>
+                    <td>Połączenia między elementami siatki (wierzchołkami, krawędziami i ścianami)</td>
+                </tr>
+                <tr>
+                    <td>M</td>
+                    <td>Łączenie wierzchołków w jeden</td>
+                </tr>
+                <tr>
+                    <td>P</td>
+                    <td>Odłączanie elementów siatki od obiektu (do nowego obiektu)</td>
+                </tr>
+                <tr>
+                    <td>L</td>
+                    <td>Zaznaczenie połączonych elemntów siatki</td>
+                </tr>
+                <tr>
+                    <td>E</td>
+                    <td>"Wyciąganie" (ang. extrude) elementów siatki</td>
+                </tr>
+                <tr>
+                    <td>ctrl + B</td>
+                    <td>Ścinanie i zaokrąglanie (ang. bevel) krawędzi</td>
+                </tr>
+                <tr>
+                    <td>K</td>
+                    <td>Przecinanie elementów siatki</td>
+                </tr>
+                <tr>
+                    <td>Y</td>
+                    <td>Odłączanie elementów siatki od reszty elementów siatki</td>
+                </tr>
+                <tr>
+                    <td>ctrl + R</td>
+                    <td>Przecinanie pętli</td>
+                </tr>
+            </table>
+        </main>
+        <footer>
+            &copy; Piotr Szczepański 2024
+        </footer>
+    </div>
+</body>
+</html>
