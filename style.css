@@ -243,6 +243,39 @@ table{
     top: 0.7em;
     z-index: 0;
 }
+.objects{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5%;
+    margin-bottom: 15%;
+}
+.obj{
+    flex-basis: 40%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-radius: 2em;
+    padding: 0.5em;
+    transition: 0.2s;
+    border: solid 0.5em rgb(255, 136, 0);
+}
+.obj:hover{
+    background-color: #215688;
+    transition: 0.2s;
+}
+.obj p{
+    text-align: center;
+    margin-top: 0;
+}
+.obj h3{
+    flex-basis: 70%;
+    text-align: center;
+}
+.obj_icon{
+    flex-basis: 5%;
+    width: 2.5em;
+}
 
 @media (max-width: 765px) {
     article{
@@ -259,5 +292,11 @@ table{
     }
     table{
         font-size: 0.7em;
+    }
+    .obj{
+        flex-basis: 100%;
+    }
+    .objects{
+        margin-bottom: 220%;
     }
 }
