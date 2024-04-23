@@ -9,4 +9,3 @@
     - skróty klawiszowe [+](https://piotrszczepanski8.github.io/html_css_projekt/shortcuts.html)
     - tryby edytowania [+](https://piotrszczepanski8.github.io/html_css_projekt/modes.html)
     - node'y i materiały [+](https://piotrszczepanski8.github.io/html_css_projekt/nodes.html)
-
