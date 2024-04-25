@@ -7,6 +7,10 @@ html{
 .container{
     background-color: #193855;
 }
+.container *::selection{
+    background-color: rgb(255, 136, 0);
+    color: #000;
+}
 nav{
     width: 100%;
 }
@@ -287,9 +291,6 @@ table{
     }
     form{
         width: 100%;
-    }
-    table{
-        font-size: 0.7em;
     }
     .obj{
         flex-basis: 100%;
