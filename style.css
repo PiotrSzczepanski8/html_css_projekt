@@ -89,7 +89,7 @@ h1{
     padding: 3%;
     text-align: center;
 }
-.content_img{
+.content_media{
     box-shadow: 0.6em 0.6em rgb(255, 136, 0);
     width: 80%;
     border-radius: 1em;
@@ -286,6 +286,10 @@ table{
 }
 .subdesc{
     display: none;
+}
+video{
+    width: 70%;
+    margin-bottom: 2%;
 }
 
 @media (max-width: 765px) {
