@@ -77,6 +77,9 @@ main{
     margin: auto;
     justify-content: center;
 }
+h1{
+    text-align: center;
+}
 .main_intro{
     display: flex;
     flex-direction: column;
@@ -278,6 +281,12 @@ table{
     flex-basis: 5%;
     width: 2.5em;
 }
+.geo_nodes, .nodes_desc,.shader_edit{
+    text-align: center;
+}
+.subdesc{
+    display: none;
+}
 
 @media (max-width: 765px) {
     article{
@@ -303,6 +312,12 @@ table{
 
 @media (max-width: 525px) {
     .desc{
-        font-size: 0.7em;
+        display: none;
+    }
+    .expand{
+        margin-top: 10%;
+    }
+    .subdesc{
+        display: flex;
     }
 }
