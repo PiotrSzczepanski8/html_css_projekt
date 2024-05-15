@@ -2,7 +2,7 @@ body{
     margin: 0;
 }
 html{
-    background-color: #215688;
+    background-color: #193855;
 }
 .container{
     background-color: #193855;
@@ -323,5 +323,32 @@ video{
     }
     .subdesc{
         display: flex;
+    }
+}
+
+@media (max-width: 660px) {
+    .main_modes{
+        width: 90%;
+        padding: 0 5% 0 5%;
+    }
+}
+@media (max-width:400px){
+    body{
+        min-width: 120%;
+    }
+}
+@media (max-width: 340px){
+    body{
+        min-width: 140%;
+    }
+}
+@media (max-width: 280px){
+    body{
+        min-width: 180%;
+    }
+}
+@media (max-width: 220px){
+    body{
+        min-width: 220%;
     }
 }
