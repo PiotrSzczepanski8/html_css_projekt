@@ -324,12 +324,18 @@ video{
     .subdesc{
         display: flex;
     }
+    .content_media{
+        width: 110%;
+    }
 }
 
 @media (max-width: 660px) {
     .main_modes{
         width: 90%;
         padding: 0 5% 0 5%;
+    }
+    .content_media{
+        width: 100%;
     }
 }
 @media (max-width:400px){
