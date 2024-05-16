@@ -1,4 +1,3 @@
-const articles = document.querySelectorAll('article');
-articles.forEach(article => {
-    
-});
+function openArticle(id){
+    window.location.href = `${id}.html`;
+}
