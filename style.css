@@ -338,7 +338,7 @@ video{
         width: 100%;
     }
 }
-@media (max-width:400px){
+/* @media (max-width:400px){
     body{
         min-width: 120%;
     }
@@ -357,4 +357,4 @@ video{
     body{
         min-width: 220%;
     }
-}
+} */
