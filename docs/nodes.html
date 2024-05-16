@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Piotr Szczepański">
+    <meta name="keywords" content="poradnik, blender3D">
+    <meta name="descritpion" content="poradnik blender3D">
+    <link rel="shortcut icon" href="../imgs/blender_logo.avif" type="image">
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <title>Poradnik do Blednera 3D</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">
+                            <i class="fa-solid fa-house hover-text">
+                                <span class="tooltip-text">strona główna</span>
+                            </i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="shortcuts.html">
+                            <i class="fa-regular  fa-keyboard hover-text">
+                                <span class="tooltip-text">skróty klawiszowe</span>
+                            </i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="modes.html">
+                            <i class="fa-solid fa-pen-to-square hover-text">
+                                <span class="tooltip-text">tryby</span>
+                            </i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="basics.html">
+                            <i class="fa-solid fa-play hover-text">
+                                <span class="tooltip-text">podstawy</span>
+                            </i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="nodes.html">
+                            <i class="fa-solid fa-circle-nodes hover-text">
+                                <span class="tooltip-text">node'y</span>
+                            </i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="nodes_desc">
+                <h1>Node'y (węzły)</h1>
+                <p>Node'y w Blenderze to narzędzie używane do tworzenia zaawansowanych materiałów, efektów wizualnych i kompozycji. Pozwalają one na tworzenie i manipulację węzłami, które reprezentują różne elementy graficzne, takie jak tekstury, kolory czy właściwości materiałów. Dzięki nim użytkownicy mogą tworzyć zaawansowane efekty wizualne, dostosowywać wygląd obiektów i renderować bardziej realistyczne sceny w Blenderze 3D. Technika node'ów jest stosowana w Blenderze na wielu etapach pracy, jest na niej oparte wiele edytorów tego programu. Na tej stronie poznasz najważniejsze zastosowania node'ów.</p>
+            </section>
+            <hr>
+            <section class="geo_nodes">
+                <h2>Geometry Nodes</h2>
+                <img src="../imgs/geonodes_default.avif" class="content_media" alt="geometry nodes default schema">
+                <p>
+                    Geometry Nodes w Blenderze 3D to narzędzie służące do tworzenia i manipulowania geometrią w sposób proceduralny. Pozwala ono na generowanie skomplikowanych struktur geometrycznych, animacji oraz efektów wizualnych poprzez zastosowanie reguł i procedur, zamiast ręcznego modelowania. Jak widać na załączonym powyżej obrazku, używając Geometry Nodes modyfikujemy geometrię obiektu (input) dodając nieograniczoną liczbę "węzłów" połączonych ze sobą i w rezultacie otrzymujemy zmodyfikowany obiekt. Niektórzy użytkownicy porównują nawet Geometry Nodes do programowania, ze względu na wymaganą logikę odpowiednią kolejność węzłów. Należy jednak pamiętać, że Geometry Nodes nie są w stanie zastąpić modelowania recznego a jedynie ułatwić pracę i pomóc w modelach, które trudno zrobić manualnie. To potężne narzędzie, uwielbiane przez użytkowników Blendera, umożliwia szybsze i bardziej elastyczne tworzenie skomplikowanych scen 3D.
+                </p>
+                <video src="../videos/build.mp4" autoplay loop class="content_media"></video>
+            </section>
+            <hr>
+            <section class="shader_edit">
+                <h2>Shader Editor</h2>
+                <img src="../imgs/default_shader.avif" class="content_media" alt="default shader principled bdsf">
+                <p>
+                    Shader Editor w Blenderze to narzędzie umożliwiające tworzenie, edycję i manipulację materiałami za pomocą węzłów graficznych. Pozwala użytkownikom na tworzenie zaawansowanych materiałów, które nadają obiektom wygląd i właściwości świetlne w trójwymiarowej przestrzeni. Shader Editor jest używany do manipulowania teksturami, kolorami i innymi parametrami, co pozwala na osiągnięcie różnorodnych efektów wizualnych. Dzięki temu narzędziu użytkownicy mogą tworzyć realistyczne materiały, jak również eksperymentować z różnymi efektami, aby uzyskać pożądane wyniki.
+                </p>
+            </section>                
+        </main>
+        <footer>
+            &copy; Piotr Szczepański 2024
+        </footer>
+    </div>
+</body>
+</html>
